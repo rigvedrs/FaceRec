@@ -23,6 +23,7 @@ import numpy as np
 class CamApp(App):
 
     def build(self):
+    
         # Main layout components 
         self.web_cam = Image(size_hint=(1,.8))
         self.button = Button(text="Verify", on_press=self.verify, size_hint=(1,.1))
